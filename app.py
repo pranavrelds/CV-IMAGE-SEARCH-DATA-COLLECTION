@@ -14,8 +14,6 @@ s3 = S3Operations()
 
 choices = {}
 
-
-
 @app.get("/fetch")
 def fetch_label():
     try:

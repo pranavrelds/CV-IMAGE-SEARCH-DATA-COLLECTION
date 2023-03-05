@@ -3,9 +3,6 @@ import sys
 import boto3
 import shutil
 from zipfile import ZipFile
-from dotenv import load_dotenv
-load_dotenv() 
-
 
 from src.logger import logging as logger
 from src.exception import CustomException
